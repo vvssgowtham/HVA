@@ -1,0 +1,32 @@
+body {
+    font-family: "Georgia, serif";
+}
+
+/* Style the article container */
+.article-container {
+    background-color: #f9f9f9;
+    padding: 20px; 
+    text-align: justify; 
+}
+
+/* Style the article title */
+.article-container h1 {
+    color: #333; 
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Style the article meta information */
+.article-meta {
+    color: #777;
+    font-size: 14px;
+    font-weight: normal; 
+    font-style: italic; 
+    text-decoration: none;
+}
+
+/* Style the paragraph tags */
+.article-container p {
+    font-size: 18px;
+    line-height: 1.6;
+}

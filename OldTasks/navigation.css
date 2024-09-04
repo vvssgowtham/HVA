@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+li::before {
+  content: "";
+  display: inline-block;
+  background-color: black;
+}
+
+ul > li {
+  padding-left: 20px;
+}
+
+li + li {
+  margin-top: 10px;
+}
+
+.navbar {
+  background-color: cadetblue;
+  padding: 5px;
+}
+
+#item1 a {
+  text-decoration: none;
+}
+

@@ -1,0 +1,40 @@
+.column-2{
+    display: inline-block;
+    width: 49%;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    /* border-box to ensure padding and border are included in the width. */
+    box-sizing: border-box;
+}
+
+.column-3{
+    display: inline-block;
+    width: 32%;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+
+    box-sizing: border-box;
+}
+
+.header,.footer{
+    border: 2px solid black;
+    background-color: #4CAF50;
+    height: 50px;
+
+    line-height: 50px;
+    /* will center the elements with the class */
+    text-align: center;
+}
+
+.main-content{
+    border: 2px solid black;
+}
+
+.row{
+    border: 2px solid black;
+    margin-bottom: 20px;
+}

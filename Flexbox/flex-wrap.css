@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  border: 2px dashed black;
+  width: 500px;
+  margin: auto;
+
+  flex-wrap: wrap;
+}
+
+/* flex-wrap effectively overrides flex-shrink property */
+/* the boxes now wrap onto the next line when there is a deficit of space in the container */
+
+.box {
+  box-sizing: border-box;
+  background-color: #c3dbeb;
+  border: 2px solid #608bab;
+  height: 100px;
+}
+
+.box1 {
+  flex-grow: 2;
+  flex-basis: 200px;
+  flex-shrink: 0;
+}
+
+.box2 {
+  flex-grow: 1;
+  flex-basis: 200px;
+  flex-shrink: 1;
+}
+
+.box3 {
+  flex-grow: 1;
+  flex-basis: 200px;
+  flex-shrink: 3;
+}

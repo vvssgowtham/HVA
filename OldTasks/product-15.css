@@ -1,0 +1,14 @@
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p{
+    font-style: italic;
+    text-align: justify;
+}
+
+p+p{
+    background-color: aquamarine;
+    line-height: 1.8;
+}

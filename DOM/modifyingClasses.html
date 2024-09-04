@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ClassList Methods Example</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="myHeading">Hello, World!</h1>
+
+    <script>
+        const heading = document.getElementById('myHeading');
+
+        // Adding a class to an element
+        heading.classList.add('highlight');
+
+        // Removing a class from an element
+        heading.classList.remove('highlight');
+
+        // Toggling a class on an element
+        // here toggle means to switch between two i.e back and forth
+        heading.addEventListener('click', function() {
+            heading.classList.toggle('highlight');
+        });
+    </script>
+</body>
+</html>

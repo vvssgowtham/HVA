@@ -1,0 +1,19 @@
+h1{
+    font-size: large;
+    color: cadetblue;
+}
+
+p{
+    font-size: medium;
+    line-height: 100%;
+}
+
+.about-me{
+    padding: 5px;
+    background-color: mistyrose;
+}
+
+#profile-pic{
+    width: 200px;
+    border-radius: 50%;
+}

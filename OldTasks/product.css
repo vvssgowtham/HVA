@@ -1,0 +1,35 @@
+.product-card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 450px;
+    max-height: 400px;
+}
+
+.product-card h3{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.product-card p {
+    color: #333;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+button[type="button"] {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+button[type="button"]:hover {
+    background-color: darkslategray;
+}

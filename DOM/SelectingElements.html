@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>Welcome to DOM</h1>
+    <p class="para">Trying out new things</p>
+    <p id="byid">For getting element by ID</p>
+</body>
+<script>
+    //selecting element by Id
+    const idValue = document.getElementById("byid");
+    console.log("getElementById");
+    console.log(idValue);
+
+    //It selects only first tag with mentioned value 
+    console.log("Query Selector");
+    const specificQueries = document.querySelector("p");
+    console.log(specificQueries);
+
+    //It selects all tags with mentioned attribute 
+    console.log("Query Selector all");
+    const allQueries = document.querySelectorAll("p");
+    console.log(allQueries);
+</script>
+</html>

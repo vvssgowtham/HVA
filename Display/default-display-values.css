@@ -1,0 +1,21 @@
+/* default display of p and div elements is block */
+.block-element{
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/* default display of span and a is inline */
+.inline-element{
+    border: 1px dashed #007BFF;
+    padding: 5px;
+}
+/* default display of image is inline-block &&  by default, behave like inline elements but can be treated as block elements with set width and height */
+.inline-block-element{
+    border:1px solid #FF5733;
+    padding: 5px;
+}
+/* default behaviour of li is block */
+.list-item-element{
+    border: 1px dotted #00CC66;
+    padding: 5px;
+}

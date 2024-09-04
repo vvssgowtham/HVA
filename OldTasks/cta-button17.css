@@ -1,0 +1,15 @@
+.cta-button {
+  border: 2px solid #007bff;
+  padding: 10px 20px;
+  width: 150px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+/* The selected code snippet box-sizing: border-box; is a CSS property that is commonly used to control the sizing behavior of an element's box model.
+In CSS, every element on a webpage is represented as a rectangular box, and the box model defines how the size of the box is calculated. By default, the size of an element is determined by its content, padding, border, and margin. However, the box-sizing property allows you to change this behavior.
+When box-sizing is set to border-box, the total width and height of an element includes the content, padding, and border, but not the margin. This means that if you specify a width or height for an element, it will include the padding and border within that width or height, rather than adding them on top.
+This can be particularly useful when you want to create elements with fixed dimensions. For example, if you have a container with a width of 300 pixels and padding of 10 pixels, setting box-sizing: border-box; ensures that the total width of the container remains 300 pixels, including the padding.
+Here's an example to illustrate the difference between box-sizing: border-box; and the default box-sizing: content-box;:
+In this example, the first box with box-sizing: border-box; will have a total width of 200 pixels, including the padding and border. The second box with the default box-sizing: content-box; will have a total width of 224 pixels, as the padding and border are added on top of the specified width.
+By using box-sizing: border-box;, you can have more control over the sizing of your elements and avoid unexpected layout issues. */

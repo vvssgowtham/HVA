@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating and Removing Elements</title>
+</head>
+<body>
+    <ul id="unordered">
+        <li>apple</li>
+    </ul>
+</body>
+<script>
+    console.log("Creating heading...");
+    const heading = document.createElement("h1");
+    console.log(heading);
+
+    console.log("Appending child...");
+    heading.innerHTML="Welcome everyone...";
+    document.body.appendChild(heading);
+
+    console.log("Creating text node...");
+    const text = document.createTextNode("wow i created a text node.");
+    console.log(text);
+
+    console.log("Removing child node from the document...");
+    document.body.removeChild(heading);
+</script>
+</html>

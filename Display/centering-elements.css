@@ -1,0 +1,22 @@
+.inline-container{
+    text-align: center;
+}
+.inline-element{
+    border: 1px solid #007BFF;
+    padding: 5px;
+}
+.inline-block-container{
+    text-align: center;
+}
+.inline-block-element{
+    display: inline-block;
+    border: 1px solid #FF5733;
+    padding: 10px;
+}
+/* auto property in the "block-element" class centers the block element horizontally, as text-align does not apply to block elements */
+.block-element{
+    margin: 10px auto;
+    width: 200ox;
+    border: 2px solid #333;
+    padding: 10px;
+}

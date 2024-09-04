@@ -1,0 +1,15 @@
+A function that is passed as an argument to another function.
+
+used to handle asynchronous operations : 
+1. Reading a file
+2. Network requests
+3. Interaction with databases
+
+Hey, when you are done, call this next. 
+https://youtu.be/K-Q-xyrA89M?si=vPNs_OvxK8WNVBta (View from 6:30)
+
+
+JSON - Looks like an array with several objects but it's not this is just string formatted in a way. 
+In JSON key's should be string and values of type string should be in 
+
+A promise is something which says that I am doing something at some point am either gonna resolve or reject at some point.

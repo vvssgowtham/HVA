@@ -1,0 +1,22 @@
+<!-- Open the browser's inspect element tool and observe how the parent "row" elements do not collapse, as Flexbox ensures that the parent container expands to contain its children, preserving the layout's integrity. -->
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="flexbox-layout.css" />
+  </head>
+  <body>
+    <div class="header">Header</div>
+    <div class="main-content">
+      <div class="row">
+        <div class="column-2">Column 1</div>
+        <div class="column-2">Column 2</div>
+      </div>
+      <div class="row">
+        <div class="column-3">Column 1</div>
+        <div class="column-3">Column 2</div>
+        <div class="column-3">Column 3</div>
+      </div>
+    </div>
+    <div class="footer">Footer</div>
+  </body>
+</html>

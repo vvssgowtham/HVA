@@ -1,0 +1,10 @@
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.second-paragraph {
+  /* In the CSS file, apply clear: left; to the "second-paragraph" class. The second paragraph starts below the first floated image, which is on the left. This is because clear: left; prevents the paragraph from appearing beside the left-floated element, pushing it down below the image. */
+  clear: both;
+}

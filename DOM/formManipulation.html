@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Manipulation</title>
+  </head>
+  <body>
+    <form>
+      <label for="Name">Name</label>
+      <input type="text" id="name" />
+      <label for="Checked">Check</label>
+      <input type="checkbox" id="ex-check" />
+      <button>Submit</button>
+    </form>
+  </body>
+  <script>
+    document.querySelector("form").addEventListener("submit", () => {
+      event.preventDefault();
+      const name = document.getElementById("name").value;
+      console.log(name);
+
+      //.checked: This is a property of an HTML input element, such as a checkbox. It indicates whether the checkbox is checked or not. It returns a boolean value (true if checked, false if not checked).
+      const checked = document.getElementById("ex-check").checked;
+      console.log(checked);
+
+      alert("Checked!!!")
+    });
+  </script>
+</html>

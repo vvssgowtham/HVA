@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="first-title">Travesing the DOM</title>
+</head>
+<body>
+    <h1>Check out Travesing in DOM</h1>
+    <p>WOW it's kinda cool...</p>
+</body>
+<script>
+    const myTitle = document.getElementById("first-title").firstChild.nodeValue;
+    console.log(myTitle);
+
+    //another way to access child nodes
+    const value = document.querySelector("h1").childNodes[0].nodeValue;
+    console.log(value);
+
+    //nodeValue for element nodes is null
+    // nodeValue for text nodes is the text itself
+    // nodeValue for attribute nodes is the attribute value
+
+    //to select all the child nodes of a parent
+    // const allNodes = document.querySelector("body").children;
+    // for(node in allNodes){
+    //     console.log(allNodes[node]);
+    // }
+
+    const nextSibling = document.querySelector("h1").nextSibling;
+    console.log(nextSibling);
+
+    //similarly there is previous sibling also for checking previous siblings.
+
+</script>
+</html>
