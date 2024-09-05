@@ -5,29 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="portfolio.css" />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
       <div class="name">VVSS GOWTHAM</div>
-      <div class="navigation">
+      <nav class="navigation">
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
-      </div>
+      </nav>
     </header>
     <div class="aboutme">
       <div class="about">
-        Final-year computer science student and aspiring web developer,<br/> I have
-        gained valuable experience as a core team member for web dev at Google
-        DSC.
-        <div class="font-awesome">
-            <i class="fa fa-camera-retro"></i>
+        <h1 class="title">
+          Hi, I'm Gowtham.<br />
+          I love to build amazing apps.
+        </h1>
+        <p class="bio">
+          Final-year computer science student and aspiring web developer,<br />I
+          have gained valuable experience as a core team member for web dev at
+          Google DSC.
+        </p>
+        <div class="socials">
+          <a href="https://github.com/your-profile" target="_blank">
+            <img
+              src="https://img.icons8.com/?size=100&id=62856&format=png&color=000000"
+              alt="Github"
+              height="50px"
+              style="margin: 2px"
+            />
+          </a>
+          <a href="https://leetcode.com/your-profile" target="_blank">
+            <img
+              src="https://img.icons8.com/?size=100&id=wDGo581Ea5Nf&format=png&color=000000"
+              alt="LeetCode"
+              height="50px"
+              style="margin: 2px; border-radius: 50%;"`
+            />
+          </a>
+          <a href="https://linkedin.com/in/your-profile" target="_blank">
+            <img
+              src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000"
+              alt="LinkedIn"
+              height="50px"
+              style="margin: 2px"
+            />
+          </a>
         </div>
       </div>
       <div class="image">
-        <img src="https://avatars.githubusercontent.com/u/118925799?v=4" alt="Gowhtma" height="250px">
+        <img
+          src="https://avatars.githubusercontent.com/u/118925799?v=4"
+          alt="Gowtham"
+          loading="lazy"
+        />
       </div>
     </div>
+    <section id="projects" class="project-container">
+      <h1>Projects</h1>
+      <div class="projects">
+        <div class="project" onclick="handleProjectClick(1)">
+          <img
+        src="https://via.placeholder.com/150"
+        alt="Project 1"
+        loading="lazy"
+          />
+          <h2>Project 1</h2>
+          <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+        suscipit, nunc nec vehicula.
+          </p>
+        </div>
+        <div class="project" onclick="handleProjectClick(2)">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Project 2"
+            loading="lazy"
+          />
+          <h2>Project 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            suscipit, nunc nec vehicula.
+          </p>
+        </div>
+        <div class="project" onclick="handleProjectClick(3)">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Project 3"
+            loading="lazy"
+          />
+          <h2>Project 3</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            suscipit, nunc nec vehicula.
+          </p>
+        </div>
+        <div class="project" onclick="handleProjectClick(4)">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Project 3"
+            loading="lazy"
+          />
+          <h2>Project 4</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            suscipit, nunc nec vehicula.
+          </p>
+        </div>
+        <div class="project" onclick="handleProjectClick(5)">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Project 5"
+            loading="lazy"
+          />
+          <h2>Project 5</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            suscipit, nunc nec vehicula.
+          </p>
+        </div>
+      </div>
+    </section>
+    <script src="portfolio.js"></script>
   </body>
 </html>

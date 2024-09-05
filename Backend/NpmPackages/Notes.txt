@@ -1,0 +1,4 @@
+A package in Node.js contains all the files you need for a module.
+Modules are JavaScript libraries you can include in your project.
+
+Inquirer npm package helps us to prompt questions to user in CLI and get meaning full insights.
