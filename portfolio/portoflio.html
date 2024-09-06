@@ -12,7 +12,9 @@
   </head>
   <body>
     <header>
-      <div class="name">VVSS GOWTHAM</div>
+      <div class="name">
+        <a href="#" style="text-decoration: none; color: black">VVSS GOWTHAM</a>
+      </div>
       <nav class="navigation">
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
@@ -31,25 +33,37 @@
           Google DSC.
         </p>
         <div class="socials">
-          <a href="https://github.com/your-profile" target="_blank">
+          <a
+            href="https://github.com/vvssgowtham"
+            target="_blank"
+            style="text-decoration: none"
+          >
             <img
-              src="https://img.icons8.com/?size=100&id=62856&format=png&color=000000"
+              src="Icons/github.png"
               alt="Github"
               height="50px"
               style="margin: 2px"
             />
           </a>
-          <a href="https://leetcode.com/your-profile" target="_blank">
+          <a
+            href="https://leetcode.com/u/Gowtham1404/"
+            target="_blank"
+            style="text-decoration: none"
+          >
             <img
-              src="https://img.icons8.com/?size=100&id=wDGo581Ea5Nf&format=png&color=000000"
+              src="Icons/leetcode.png"
               alt="LeetCode"
               height="50px"
-              style="margin: 2px; border-radius: 50%;"`
+              style="margin: 2px; border-radius: 50%"
             />
           </a>
-          <a href="https://linkedin.com/in/your-profile" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/vvssgowtham/"
+            target="_blank"
+            style="text-decoration: none"
+          >
             <img
-              src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000"
+              src="Icons/linkedin.png"
               alt="LinkedIn"
               height="50px"
               style="margin: 2px"
@@ -66,18 +80,18 @@
       </div>
     </div>
     <section id="projects" class="project-container">
-      <h1>Projects</h1>
+      <h1><u>Projects</u></h1>
       <div class="projects">
         <div class="project" onclick="handleProjectClick(1)">
           <img
-        src="https://via.placeholder.com/150"
-        alt="Project 1"
-        loading="lazy"
+            src="https://via.placeholder.com/150"
+            alt="Project 1"
+            loading="lazy"
           />
           <h2>Project 1</h2>
           <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-        suscipit, nunc nec vehicula.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            suscipit, nunc nec vehicula.
           </p>
         </div>
         <div class="project" onclick="handleProjectClick(2)">
@@ -130,6 +144,76 @@
         </div>
       </div>
     </section>
+    <section id="skills" class="skillsContainer">
+      <h1><u>Skills</u></h1>
+      <div class="skills">
+        <div class="skill">
+          <img src="Icons/html-5.png" alt="HTML" height="65px" />
+          <h2>HTML</h2>
+        </div>
+        <div class="skill">
+          <img src="Icons/css.png" alt="CSS" height="65px" />
+          <h2>CSS</h2>
+        </div>
+        <div class="skill">
+          <img src="Icons/js.png" alt="JavaScript" height="65px" />
+          <h2>JavaScript</h2>
+        </div>
+        <div class="skill">
+          <img src="Icons/reactjs.png" alt="React" height="65px" />
+          <h2>React.js</h2>
+        </div>
+        <div class="skill">
+          <img src="Icons/nodejs.png" alt="Node.js" height="65px" />
+          <h2>Node.js</h2>
+        </div>
+        <div class="skill">
+          <img src="Icons/mongodb.png" alt="MongoDB" height="65px" />
+          <h2>MongoDB</h2>
+        </div>
+        <div class="skill">
+          <img src="Icons/express.png" alt="Express.js" height="65px" />
+          <h2>Express.js</h2>
+        </div>
+        <div class="skill">
+          <img src="Icons/java.png" alt="Java" height="65px" />
+          <h2>Java</h2>
+        </div>
+        <div class="skill">
+          <img src="Icons/firebase.png" alt="Firebase" height="65px" />
+          <h2>Firebase</h2>
+        </div>
+        <div class="skill">
+          <img src="Icons/typescript.png" alt="Typescript" height="65px" />
+          <h2>Typescript</h2>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact-form-container">
+      <h1><u>Get in Touch</u></h1>
+      <div class="contact">
+        <div class="contact-form">
+          <form action="#">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="6" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>&copy; Portfolio By Gowtham</p>
+    </footer>
     <script src="portfolio.js"></script>
   </body>
 </html>
