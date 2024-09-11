@@ -2,3 +2,26 @@ A package in Node.js contains all the files you need for a module.
 Modules are JavaScript libraries you can include in your project.
 
 Inquirer npm package helps us to prompt questions to user in CLI and get meaning full insights.
+
+
+moment js
+loadesh
+axios
+qr code npm package
+pdfreader npm package
+
+Different ways to export and to import
+
+Folder structures in express
+MVC pattern in express(Model, View, Controller)
+DDD Domain Driven Development
+Controller, Service and Repository Pattern
+Request Validation
+Use Middlewares
+Write ur own Middlewares
+Common Error Handler(Eg of Middlewares...)
+How do we read from environmental variables(.env)
+API design(HTTP Codes, URL Naming,HTTP Request Methods)
+
+Presentation : 
+How do you choose library for a particular usecase???
