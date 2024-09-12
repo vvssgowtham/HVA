@@ -1,0 +1,23 @@
+{
+  "name": "extraconcepts",
+  "version": "1.0.0",
+  "main": "lodash.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "qrcode": "^1.5.4"
+  }
+}

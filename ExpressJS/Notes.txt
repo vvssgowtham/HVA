@@ -1,0 +1,25 @@
+https://youtu.be/dwd6uiucmIY
+
+Name&Version : 
+If you plan to publish your package, the most important things in your package.json are the name and version fields as they will be required.
+
+Main : 
+The main field is a module ID that is the primary entry point to your program. That is, if your package is named foo, and a user installs it, and then does require("foo"), then your main module's exports object will be returned.
+This should be a module relative to the root of your package folder.
+
+Scripts:
+Scripts are something that run at various times in the lifecycle of your package.
+
+Video for Difference between dependency and dev-dependency
+https://youtu.be/dpJ4gY9SYWo?si=dJmJqH9UPUwEvAvH
+
+Dependencies:
+Dependencies are specified in a simple object that maps a package name to a version range. The version range is a string which has one or more space-separated descriptors. Dependencies can also be identified with a tarball or git URL.
+These are packages without which our project doesn't run.
+npm install --save <package-name>
+
+DevDependencies :
+The modules which are needed for the developers in the development mode. 
+npm install --save-dev <package-name>
+
+When you do npm install that would be installed as a dependency.
