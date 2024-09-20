@@ -1,0 +1,4 @@
+Streams and Buffer in nodejs.
+
+What is encoding why we actually do it.
+Base 64 or HexaDecimal.
