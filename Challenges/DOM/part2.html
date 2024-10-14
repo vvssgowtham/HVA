@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Background Color</title>
+    <style>
+        .toggleDiv {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid black;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Click on a Div to Toggle Background Color</h2>
+    <div class="toggleDiv">Div 1</div>
+    <div class="toggleDiv">Div 2</div>
+    <div class="toggleDiv">Div 3</div>
+
+    <script>
+        const divs = document.querySelectorAll(".toggleDiv");
+        divs.forEach(div => {
+            div.addEventListener("click", function() {
+                if (this.style.backgroundColor === "red") {
+                    this.style.backgroundColor = "white";
+                } else {
+                    this.style.backgroundColor = "red";
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. The next middleware function is commonly denoted by a variable named next.
+
+
+app.get('/data', (req, res, next) => {
+  try {
+    // Simulate an error in processing
+    let data = null;
+    if (!data) {
+      throw new Error('Data not found');
+    }
+    res.send('Data processed successfully');
+  } catch (err) {
+    next(err);  // Pass the error to the error-handling middleware
+  }
+});
+
+// Error-handling middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack);  // Logs the error stack trace
+  res.status(500).send('Something broke!');  // Sends 500 status with message
+});
