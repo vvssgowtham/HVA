@@ -97,6 +97,10 @@ const displayTasks = () => {
     deleteButton.innerHTML = "Delete task";
     divTwo.append(deleteButton);
   }
+  clearing();
+};
+
+const clearing = () => {
   document.getElementById("taskName").value = "";
   document.getElementById("description").value = "";
   document.getElementById("dueDate").value = "";
@@ -137,8 +141,8 @@ const applyFilter = () => {
   const priorityFilter = document.getElementById("priorityFilter").value;
   const dueDateFilter = document.getElementById("dueDateFilter").value;
   let statusFilter = document.getElementById("statusFilter").value;
-  
-  if(statusFilter==="" && priorityFilter==="" && dueDateFilter===""){
+
+  if (statusFilter === "" && priorityFilter === "" && dueDateFilter === "") {
     alert("Select atleast one filter to apply!!!");
     return;
   }
